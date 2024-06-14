@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+        <title>MyContact -- Form</title>
+    </head>
+
+    <body>
+
+        <header>
+            <span>
+                <h1>Welcome to MyForm</h1>
+            </span>
+
+            <span>
+                <h1>Cotact Us Form</h1>
+            </span>
+        </header>
+
+        <div class="container">
+            <div class="content">
+
+                <form action method="post">
+
+                    <label for="fname">Name :</label>
+                    <input type="text" name="fname" id="fname"
+                        placeholder="Enter your name">
+                    <br><br>
+                    <label for="mail">Email :</label>
+                    <input type="email" name="mail" id="mail"
+                        placeholder="Enter your mail">
+                    <br><br>
+                    <label for="con">Contact :</label>
+                    <input type="number" name="con" id="con"
+                        placeholder="enter your contact number">
+                    <br><br>
+
+                    <label for="date">Date :</label>
+                    <input type="date" name="date" id="date">
+                    <br><br>
+                    <!-- <label for="add">Address :</label> -->
+                    <legend>Address :</legend>
+                    <textarea name="add" id="add" cols="30" rows="05"></textarea>
+
+                    <br><br>
+                    <fieldset>
+                        <legend>Select your Gender :</legend>
+
+                        <div><input type="radio" id="mel" name="gen"
+                                value="MALE">
+                            <label for="gen">MALE </label>
+                        </div>
+                        <br><br>
+                        <div><input type="radio" name="gen" id="fem"
+                                value="FEMALE">
+                            <label for="fem">FEMALE </label>
+                        </div>
+                        <br><br>
+
+                        <div><input type="radio" name="gen" id="oth"
+                                value="OTHER">
+                            <label for="oth">OTHER</label>
+                        </div>
+                        <br><br>
+
+                    </fieldset>
+
+                    <br><br>
+
+                    <fieldset>
+                        <legend>your intrests :</legend>
+
+                        <div>
+                            <input type="checkbox" id="html" name="html"
+                                value="HTML">
+                            <label for="html"> HTML</label>
+                        </div><br>
+                        <div>
+
+                            <input type="checkbox" id="css" name="css"
+                                value="CSS">
+                            <label for="css">CSS</label>
+                        </div><br>
+                        <div>
+
+                            <input type="checkbox" id="js" name="js"
+                                value="JavaScript">
+                            <label for="js">JavaScript</label>
+                        </div><br>
+                    </fieldset>
+                    <br><br>
+
+                    <input type="submit" value="submit"> <input type="reset"
+                        value="reset">
+
+                </form>
+
+            </div>
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+        </div>
+
+    </body>
+
+</html>
